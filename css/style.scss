@@ -38,7 +38,6 @@ body{
     }
 }
 
-
 .nav{
     &__search-inp{
         border: 1px solid #666;
@@ -100,7 +99,6 @@ body{
     text-decoration:underline;
 }
 
-
 .container{
     &__btn{
     color: $primary-purple;
@@ -115,6 +113,166 @@ body{
     &__log{
         margin-top: 1rem;
         margin-bottom: 2rem;
-        
     }
 }
+
+.aside{
+    margin-top: 5rem;
+    background-color: rgb(243, 243, 243);
+    &__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(250,250,250);
+    border-radius: .5rem;}
+    
+    &__h2{
+        color: $primary-purple;
+        text-decoration: none;
+    }
+    &__h2:hover{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    &__btn{
+        color: $primary-purple;
+        border: 1px solid $primary-purple;
+        width: 90%;
+    }
+    &__btn:hover{
+        background-color: $primary-purple;
+        color: white;
+        text-decoration:underline;
+    }
+    &__log{
+        width: 90%;
+        text-align: center;
+        justify-content: center;
+        padding-top: 1rem;
+        height: 3rem;
+        margin-bottom: 1rem;
+        border-radius: .5rem;
+        margin-top: .5rem;
+        text-decoration: none;
+        color: gray;
+    }
+    &__log:hover{
+        background-color: rgb(232, 227, 248);
+        color: $primary-purple;
+        text-decoration: underline;
+    }
+    &__list{
+        list-style-type: none;
+     }
+    &__item{
+        text-decoration: none;
+        width: 100%;
+        border-radius: .5rem;
+    }
+    &__item:hover{
+        text-decoration: underline;
+        color:$primary-purple;
+        background-color: $bg-hover;
+        cursor: pointer;
+    }
+    &__link{
+        text-decoration: none;
+        color: black;
+        }
+    &__link:hover{
+        color: $primary-purple;
+        }
+    &__social{
+        width:100%;
+    }
+    &__social-cont:hover{
+        background-color: $bg-hover;
+        color: $primary-purple;
+        cursor: pointer;
+    }
+    &__social-logo{
+        color: rgb(56,56,56);
+        width: 2.5rem;
+        height: 2.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: .5rem;
+    }
+    &__social-logo:hover{
+        color: $primary-purple;
+        background-color: $bg-hover;
+    }
+    &__hashtag{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    &__link-hs{
+        width: 100%;
+        border-radius: .5rem;
+        text-decoration: none;
+        color:black;
+    }
+    &__link-hs:hover{
+        background-color: $bg-hover;
+        color: $primary-purple;
+        text-decoration: underline;
+
+    }
+    &__info-p{
+        color: #575757;
+    }
+}
+
+.aside-2{
+    margin-top: 4rem;
+    background-color: rgb(243, 243, 243);
+}
+
+.card{
+    background-color: rgb(250, 250, 250);
+    &__img{
+        border-radius: .5rem;
+    }
+    &__img:hover{
+        cursor: pointer;
+    }
+    &__text{
+    font-family: $ff-sans-serif;
+    font-size: 1.5rem;
+    color: $primary-purple;
+    text-decoration: none;
+    }
+    &__text:hover{
+        cursor: pointer;
+    }
+    &__link{
+        text-decoration: none;
+        color: black;
+    }
+    &__link:hover{
+        color:$primary-purple;
+        background-color: white;
+    }
+    &__btn{
+        color: white;
+        border: 1px solid $primary-purple;
+        background-color: $primary-purple;
+        width: 100%;
+    }
+    &__btn:hover{
+        background-color: rgb(57,31,185);
+        color: black;
+    }
+    &__btn2{
+        color: black;
+        border: 1px solid rgb(214,214,215);
+        background-color: rgb(214,214,215);
+        width: 100%;
+    }
+    &__btn2:hover{
+        background-color: rgb(189,189,189);
+    }
+}
+
