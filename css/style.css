@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #f3f3f3;
+}
+
+.navbar {
+  background-color: white;
+}
+
+.collapse__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fafafa;
+  border-radius: .5rem;
+}
+
+.collapse__h2 {
+  color: #3b49df;
+}
+
+.nav__search-inp {
+  border: 1px solid #666;
+  border-right: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: .5rem;
+  border-bottom-left-radius: .5rem;
+  height: 2.5rem;
+  width: 25rem;
+}
+
+.nav__search-inp:focus {
+  border: 1px solid #3b49df;
+}
+
+.nav__search-mag {
+  border: 1px solid #666;
+  border-left: none;
+  height: 2.5rem;
+  border-top-right-radius: .5rem;
+  border-bottom-right-radius: .5rem;
+}
+
+.nav__search-mag:hover {
+  background-color: #ebebfd;
+}
+
+.nav__social-logo {
+  color: #383838;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: .5rem;
+}
+
+.nav__info {
+  color: #575757;
+}
+
+.navbar-toggler {
+  border: none;
+  color: #262626;
+  width: 3.5rem;
+  height: 2.5rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+}
+
+.cont-link {
+  text-decoration: none;
+  color: black;
+}
+
+.cont-link:hover {
+  background-color: #ebebfd;
+  text-decoration: underline;
+}
+
+.container__btn {
+  color: #3b49df;
+  border: 1px solid #3b49df;
+  width: 100;
+}
+
+.container__btn:hover {
+  background-color: #3b49df;
+  color: white;
+  text-decoration: underline;
+}
+
+.container__log {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+/*# sourceMappingURL=style.css.map */

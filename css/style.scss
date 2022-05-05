@@ -15,3 +15,106 @@ $button-purple-hover:rgb(59,31,185);
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: rgb(243, 243, 243);
+}
+
+.navbar{
+    background-color:white ;
+}
+
+.collapse{
+    &__info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(250,250,250);
+        border-radius: .5rem;
+    }
+    &__h2{
+        color: $primary-purple;
+    }
+}
+
+
+.nav{
+    &__search-inp{
+        border: 1px solid #666;
+        border-right: none;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        border-top-left-radius: .5rem;
+        border-bottom-left-radius: .5rem;
+        height: 2.5rem;
+        width: 25rem;
+    }
+    &__search-inp:focus{
+        border: 1px solid $primary-purple;
+    }
+    &__search-mag{
+        border: 1px solid #666;
+        border-left: none;
+        height: 2.5rem;
+        border-top-right-radius: .5rem;
+        border-bottom-right-radius: .5rem;
+    }
+    &__search-mag:hover{
+        background-color: $bg-hover;
+    }
+    &__social-logo{
+        color: rgb(56,56,56);
+        width: 2.5rem;
+        height: 2.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: .5rem;
+    }
+    &__info{
+        color: #575757;
+    }
+    
+}
+
+.navbar-toggler{
+    border: none;
+    color: #262626;
+    width: 3.5rem;
+    height: 2.5rem;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+}
+
+.cont-link{
+    text-decoration: none;
+    color: black;
+}
+
+.cont-link:hover{
+    background-color: $bg-hover;
+    text-decoration:underline;
+}
+
+
+.container{
+    &__btn{
+    color: $primary-purple;
+    border: 1px solid $primary-purple;
+    width: 100;
+    }
+    &__btn:hover{
+        background-color: $primary-purple;
+        color: white;
+        text-decoration:underline;
+    }
+    &__log{
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        
+    }
+}
