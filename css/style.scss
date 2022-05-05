@@ -276,3 +276,26 @@ body{
     }
 }
 
+.footer{
+    background-color: rgb(229,229,229);
+    &__word{
+        color: $primary-purple;
+        text-decoration: none;
+    }
+    &__word:hover{
+        color: $primary-purple;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    &__icon{
+        color:rgb(0,184,168);
+        margin-top: 1rem;
+    }
+    &__icon:hover{
+        background-color: $bg-hover;
+    }
+    &__first{
+        margin-bottom: 1rem;
+    }
+}
+

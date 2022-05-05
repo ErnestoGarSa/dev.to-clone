@@ -326,4 +326,32 @@ body {
 .card__btn2:hover {
   background-color: #bdbdbd;
 }
+
+.footer {
+  background-color: #e5e5e5;
+}
+
+.footer__word {
+  color: #3b49df;
+  text-decoration: none;
+}
+
+.footer__word:hover {
+  color: #3b49df;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.footer__icon {
+  color: #00b8a8;
+  margin-top: 1rem;
+}
+
+.footer__icon:hover {
+  background-color: #ebebfd;
+}
+
+.footer__first {
+  margin-bottom: 1rem;
+}
 /*# sourceMappingURL=style.css.map */
