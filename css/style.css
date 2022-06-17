@@ -357,9 +357,6 @@ body {
 }
 
 .cardC {
-  overflow: hidden;
-  margin: auto;
-  width: 650px;
   border-color: #cccc;
   border-radius: 10px;
   background-color: white;
@@ -381,7 +378,6 @@ body {
 
 .title__timeC {
   font-size: small;
-  margin-top: none;
   color: #717171;
 }
 
@@ -410,9 +406,7 @@ body {
 }
 
 .time__readC {
-  margin-top: 10px;
-  margin-right: 10px;
-  font-size: small;
+  font-size: 12px;
   color: rgba(56, 56, 56, 0.8);
 }
 
@@ -422,14 +416,16 @@ body {
 }
 
 .btn__discussC {
-  width: 70px;
+  width: auto;
+  font-size: 12px;
+  margin: 3px;
   height: 25px;
-  border: 0 solid;
+  border: none;
   background-color: #e8faed;
 }
 
 .btn__discussC:hover {
-  border: 1px solid #c0ffd2;
+  border: 1.5px solid #c0ffd2;
 }
 
 .btn__javascriptC {
@@ -481,10 +477,9 @@ body {
 }
 
 .btn__actionsC {
-  margin-top: 5px;
-  margin-right: 5px;
-  width: 115px;
+  width: auto;
   height: 30px;
+  font-size: 14px;
   border: 0 solid;
   background-color: white;
 }
@@ -494,12 +489,10 @@ body {
 }
 
 .btn__saveC {
-  margin-top: 5px;
-  margin-right: 5px;
-  width: 52px;
-  height: 32px;
+  height: 2rem;
+  font-size: 14px;
   border: 0 solid;
-  background-color: #b9b9b9;
+  background-color: #D6D6D7;
 }
 
 .btn__saveC:hover {
